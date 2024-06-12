@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto integrador - Contacto</title>
+  </head>
+  <body>
+    <div class="contact">
+      <nav class="nav-bar">
+        <div class="nav-bar__logo-container">
+          <img src="/public/img/bajo.webp" alt="Logo_Bajo" />
+        </div>
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/pages/Nosotros.html" class="nav-bar__nav-link"
+              >Nosotros</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/pages/Contacto.html" class="nav-bar__nav-link"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <form class="contact-form">
+        <fieldset class="contact-form__container">
+          <legend class="contact-form__title">Contactanos!</legend>
+
+          <label
+            for="lbl-nombre"
+            class="contact-form__input-label contact-form__input-label__name"
+            >Nombre:</label
+          >
+          <input
+            type="text"
+            name="nombre"
+            id="lbl-nombre"
+            class="contact-form__input contact-form__input__name"
+            placeholder="John Doe"
+            required
+          />
+
+          <label
+            for="lbl-email"
+            class="contact-form__input-label contact-form__input-label__email"
+            >Email:</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="lbl-email"
+            class="contact-form__input contact-form__input__email"
+            placeholder="Ejemplo@mail.com"
+            required
+          />
+
+          <label
+            for="lbl-producto"
+            class="contact-form__input-label contact-form__input-label__product"
+            >Producto:</label
+          >
+          <input
+            type="text"
+            name="producto"
+            id="lbl-producto"
+            class="contact-form__input contact-form__input__product"
+            placeholder="Epiphone thunderbird gothic IV"
+            required
+          />
+
+          <label
+            for="lbl-Comentarios"
+            class="contact-form__input-label contact-form__input-label__comments"
+            >Comentarios:</label
+          >
+          <textarea
+            name="Comentarios"
+            id="lbl-Comentarios"
+            class="contact-form__input contact-form__input__comments"
+            cols="20"
+            rows="1"
+            placeholder="Me gustaria saber el precio de..."
+            required
+          ></textarea>
+        </fieldset>
+      </form>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
