@@ -1,2 +1,2 @@
-URL GITHUB:
-URL NETLIFY:
+URL GITHUB:https://github.com/Pichi-Cell/bc_71370-integrador_etapa1-Lucas-Picchi.zip
+URL NETLIFY:https://666a12ed1f8d1b3b3d468e82--relaxed-gumption-991785.netlify.app/
